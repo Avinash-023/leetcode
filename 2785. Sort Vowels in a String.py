@@ -6,7 +6,7 @@ class Solution(object):
         """
         l=['a','e','i','o','u','A','E','I','O','U']
         ans=[]
-        for i in s:
+        for i in s:  
             if i in l:
                 ans.append(i)
         ans.sort()
