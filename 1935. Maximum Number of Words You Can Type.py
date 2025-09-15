@@ -5,7 +5,7 @@ class Solution:
         for i in l:
             s=True
             for j in i:
-                if j in brokenLetters:
+                if j in brokenLetters: 
                     s=False
             if s==True:
                 count+=1
